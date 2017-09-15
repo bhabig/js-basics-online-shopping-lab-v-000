@@ -55,7 +55,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(creditCard) {
-  console.log(creditCard)
+  debugger;
   if (!creditCard) {
     console.log('We don\'t have a credit card on file for you to place your order.')
   } else {
